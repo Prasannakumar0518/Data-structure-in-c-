@@ -1,3 +1,4 @@
+//type from 10 line to 130
 #include <iostream>
 struct Node
 {
@@ -6,7 +7,7 @@ struct Node
     Node* right;
 };
 Node* root;
-
+//type from 10 line to 130
 void insertNode(Node* node, int rootData, int data, char pos)
 {
     if (node != nullptr)
